@@ -35,5 +35,5 @@ button.onclick = function (){
   };  
   
   request.open('GET','http://rhearnav.imad.hasura-app.io/counter');
-  request.send();
+  request.send(null);
 };
